@@ -1,0 +1,29 @@
+*********************** Comandos varios ************************
+
+COMANDOS SIP.
+sip show registry: Muestra el estado de registro del SIP.
+sip show peers: Muestra los peers, los clientes registrados en tu centralita (las extensiones). Su estado, IPs etc.
+sip show channel: Muestra información del canal SIP.
+sip show channels: Muestra los canales activos SIP.
+sip set debug on o sip debug (dependiendo de las versiones): activa el modo debug.
+sip set debug off o sip no debug (dependiendo de las versiones): desactiva el modo debug.
+sip show users: Muestra los usuarios
+
+
+COMANDOS SISTEMA ASTERISK.
+core show version: Versión de Asterisk.
+core show uptime: Cuanto tiempo ha estado activo Asterisk.
+core stop now: detiene Asterisk inmediatamente.
+core stop gracefully: Para Asterisk cuando cuelguen las llamadas en curso.
+core restart now: Reinicia Asterisk inmediatemente.
+core restart gracefully: Reinicia Asterisk cuando se acaben las llamadas activas y no permite más llamadas entrantes hasta reiniciar.
+core reload: recarga la configuración.
+core dialplan reload: recarga sólo las extensiones.
+core show channels: muestra los canales de todo tipo.
+
+
+
+ COMANDOS CONSOLE.
+console dial: Llama a la extensión que pongas detrás.
+console answer: responde una llamada a la consola.
+console hangup: cuelga una llamada a la consola.
