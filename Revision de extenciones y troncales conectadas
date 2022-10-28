@@ -1,0 +1,19 @@
+***************************************** Revision de extenciones y troncales conectadas ********************************
+
+
+* Primero deberemos de entrar a Asterisk
+
+rasterisk
+
+
+* Una ves dentro ejecutaremos el comando:
+
+sip show peers
+
+
+**************** Esto mostrara todas las extenciones conectadas y las troncales *****************
+
+
+* Si queremos revisar las extenciones IAX2:
+
+iax2 show peers
