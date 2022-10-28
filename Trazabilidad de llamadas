@@ -1,3 +1,7 @@
 **************************** Trazabilidad de llamadas *********************************
 
+
+* Dentro de asterisk ejecutaremos el siguiente comando:
+
+
 core set verbose 9
